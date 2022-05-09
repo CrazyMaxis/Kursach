@@ -1,0 +1,337 @@
+@import './fonts.scss';
+@import './vars.scss';
+@import './nav.scss';
+@import './footer.scss';
+@import './interested.scss';
+@import './review.scss';
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    width: 100%;
+    background-color: $black;
+    font-family: "CenturyGothic";
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.buqet{
+    margin-top: 100px;
+    padding: 0% 10%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 540px;
+}
+
+.buqet__image{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+    figure{
+
+        img{
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    }
+}
+
+.buqet__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+}
+
+.buqet__description__header{
+    display: flex;
+    width: 100%;
+    height: 22%;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: $lightbiege;
+}
+
+.buqet__description__header__price{
+    color: $biege;
+}
+
+.buqet__description__header__line{
+    @extend %line_horizontal;
+}
+
+.buqet__description__text{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.buqet__description__text__header{
+    font-size: 18px;
+    color: $biege;
+}
+
+.buqet__description__buttons{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+
+    button{
+        font-size: 24px;
+        color: white;
+    }
+
+    button:hover{
+        background-color: $darkbiege;
+        color: lightgray;
+    }
+}
+
+.buqet__description__buttons__circle{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: $biege;
+    align-items: center;
+    justify-content: center;
+}
+
+.buqet__description__buttons__rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: $biege;
+}
+
+.buqet__description__share{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: $biege;
+
+    a:hover{
+        .white{
+            display: none;
+        }
+    
+        .gray{
+            display: inline;
+        }
+    }
+
+    svg{
+        height: 25px;
+    }
+}
+
+@media(max-width: $breakpoint1400){
+    .buqet{
+        height: 400px;
+    }
+    .buqet__description__header{
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .buqet__description__text{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .buqet__description__text__header{
+        font-size: 16px;
+    }
+
+    .buqet__description__buttons{
+        font-size: 18px;
+
+        button{
+            font-size: 18px;
+        }
+    }
+
+    .buqet__description__buttons__circle{
+        width: 30px;
+        height: 30px;
+    }
+
+    .buqet__description__buttons__rectangle{
+        width: 160px;
+        height: 40px;
+        border-radius: 12px;
+    }
+
+    .buqet__description__share{
+        font-size: 16px;
+
+        svg{
+            height: 20px;
+        }
+    }
+}
+
+@media(max-width: $breakpoint1024){
+    .buqet{
+        height: 350px;
+        margin-top: 80px;
+    }
+
+    .buqet__description__header{
+        font-size: 18px;
+        line-height: 24px;
+        height: 15%;
+    }
+
+    .buqet__description__text{
+        font-size: 11px;
+        line-height: 16px;
+        height: 30%;
+    }
+
+    .buqet__description__text__header{
+        font-size: 14px;
+    }
+
+    .buqet__description__buttons{
+        font-size: 15px;
+        width: 100%;
+
+        button{
+            font-size: 15px;
+        }
+    }
+
+    .buqet__description__buttons__circle{
+        width: 25px;
+        height: 25px;
+    }
+
+    .buqet__description__buttons__rectangle{
+        width: 130px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    .buqet__description__share{
+        font-size: 15px;
+        width: 100%;
+
+        svg{
+            height: 17px;
+        }
+    }
+}
+
+@media(max-width: $breakpoint768){
+    .buqet{
+        height: 300px;
+        margin-top: 60px;
+    }
+
+    .buqet__description__header{
+        font-size: 14px;
+        line-height: 20px;
+        height: 15%;
+    }
+
+    .buqet__description__text{
+        font-size: 8px;
+        line-height: 10px;
+        height: 30%;
+    }
+
+    .buqet__description__text__header{
+        font-size: 10px;
+    }
+
+    .buqet__description__buttons{
+        font-size: 12px;
+        width: 100%;
+
+        button{
+            font-size: 12px;
+        }
+    }
+
+    .buqet__description__buttons__circle{
+        width: 18px;
+        height: 18px;
+    }
+
+    .buqet__description__buttons__rectangle{
+        width: 90px;
+        height: 22px;
+        border-radius: 6px;
+    }
+
+    .buqet__description__share{
+        font-size: 10px;
+        width: 100%;
+
+        svg{
+            height: 15px;
+        }
+    }
+}
+
+@media(max-width: $breakpoint480){
+    .buqet{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 550px;
+    }
+
+    .buqet__image{
+        width: 60%;
+    }
+
+    .buqet__description{
+        width: 70%;
+        height: 80%;
+    }
+
+    .buqet__description__header{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 5%;
+    }
+
+    .buqet__description__header__line{
+        display: none;
+    }
+
+    .buqet__description__text{
+        height: 45%;
+        font-size: 10px;
+        line-height: 16px;
+    }
+}
