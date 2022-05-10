@@ -514,7 +514,6 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 50px;
   padding: 0px 10%;
   width: 100%;
   -webkit-box-pack: justify;
@@ -537,7 +536,8 @@ a {
   font-weight: 700;
   font-size: 54px;
   line-height: 100px;
-  margin-top: 50px;
+  height: 220px;
+  padding-top: 100px;
 }
 
 .header__line {
@@ -598,6 +598,7 @@ a {
   .header {
     font-size: 44px;
     line-height: 85px;
+    height: 200px;
   }
   .grid {
     -ms-grid-columns: 22% 22% 22%;
@@ -616,6 +617,8 @@ a {
   .header {
     font-size: 36px;
     line-height: 65px;
+    height: 150px;
+    padding-top: 60px;
   }
   .grid {
     -ms-grid-columns: 25% 25% 25%;
@@ -650,6 +653,7 @@ a {
   .header {
     font-size: 20px;
     line-height: 45px;
+    height: 120px;
   }
   .grid {
     -ms-grid-columns: 35% 35%;
