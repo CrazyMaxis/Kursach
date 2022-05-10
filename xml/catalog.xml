@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalog>  
+    <categories>
+        <category name="Monobouquets" count="6">
+            <bouquet name="Beautiful bouquet 1" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 2" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 3" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 4" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 5" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 6" price="120"></bouquet>
+        </category>
+        <category name="Love & Romance" count="6">
+            <bouquet name="Beautiful bouquet 7" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 8" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 9" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 10" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 11" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 12" price="120"></bouquet>
+        </category>
+        <category name="Roses" count="6">
+            <bouquet name="Beautiful bouquet 13" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 14" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 15" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 16" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 17" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 18" price="120"></bouquet>
+        </category>
+        <category name="Pions" count="6">
+            <bouquet name="Beautiful bouquet 19" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 20" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 21" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 22" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 23" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 24" price="120"></bouquet>
+        </category>
+        <category name="Wedding" count="6">
+            <bouquet name="Beautiful bouquet 25" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 26" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 27" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 28" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 29" price="120"></bouquet>
+            <bouquet name="Beautiful bouquet 30" price="120"></bouquet>
+        </category>
+    </categories>
+</catalog>

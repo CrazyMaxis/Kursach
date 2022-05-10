@@ -244,6 +244,18 @@ nav {
   height: 180px;
 }
 
+.footer a:hover {
+  color: gray;
+}
+
+.footer a:hover .white {
+  display: none;
+}
+
+.footer a:hover .gray {
+  display: inline;
+}
+
 .footer__info {
   display: -webkit-box;
   display: -ms-flexbox;
