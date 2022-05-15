@@ -129,7 +129,7 @@ a{
             border-radius: 0px 15px 15px 0px;
             color: #fff;
             font-weight: 700;
-            font-size: 20px;
+            font-size: 18px;
         }
 
         button:hover{
@@ -378,6 +378,16 @@ a{
             border-radius: 10px;
             width: 40%;
             height: 35px;
+        }
+    }
+}
+
+@media(max-width: $breakpoint480){
+    .cartMobile__info{
+        font-size: 14px;
+
+        a{
+            width: 50%;
         }
     }
 }
