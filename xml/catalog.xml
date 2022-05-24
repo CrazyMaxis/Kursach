@@ -10,7 +10,7 @@
             <bouquet name="Beautiful bouquet 5" price="120"></bouquet>
             <bouquet name="Beautiful bouquet 6" price="120"></bouquet>
         </category>
-        <category name="Love & Romance" count="6">
+        <category name="Love and Romance" count="6">
             <bouquet name="Beautiful bouquet 7" price="120"></bouquet>
             <bouquet name="Beautiful bouquet 8" price="120"></bouquet>
             <bouquet name="Beautiful bouquet 9" price="120"></bouquet>
